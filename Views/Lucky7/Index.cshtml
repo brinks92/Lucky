@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Lucky Seven</title>
+</head>
+<body>
+
+    <button onclick="history.go(0)">Spin</button>
+    <div>@ViewBag.first</div>
+    <div>@ViewBag.sec</div>
+    <div>@ViewBag.third</div>
+    <br/>
+    <h1>Lucky @ViewBag.number</h1>
+    <img  style= "display:@ViewBag.display" alt="coins" />
+
+
+    
+  
+
+    
+</body>
+</html>
